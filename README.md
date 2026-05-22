@@ -2,15 +2,15 @@
 
 # VFG-7：细粒度 7 类车辆检测数据集
 
-### VFG-7 Dataset
+### 中国东莞城市交通量调查项目
 
 <p align="center">
   <img src="assets/overview_grid.jpg" alt="VFG-7 数据集总览" width="100%">
 </p>
 
-**VFG-7** 是由 **VFG-7 Dataset** 整理的 7 类细粒度车辆检测数据集，来源于中国东莞城市交通量调查项目。开源版本从总计 **50,000+ 张**原始交通图像中精选 **3,600 张**，约占完整数据量的 **7%**，包含约 50,000 个标注框及 10,784 条 AI 结构化描述。
+**VFG-7** 是一个面向交通工程场景的 7 类细粒度车辆检测数据集，来源于中国东莞城市交通量调查项目。开源版本从总计 **50,000+ 张**原始交通图像中精选 **3,600 张**，约占完整数据量的 **7%**，包含约 50,000 个标注框及 10,784 条 AI 结构化描述。
 
-采集场景覆盖白天/夜间、路侧监控、路测手机拍摄、无人机航拍等多种视角。如需获取完整数据集，请联系作者：**tianwenkang123@163.com**。
+采集场景覆盖白天/夜间、路侧监控、路测手机拍摄、无人机航拍等多种视角。如需获取完整数据集，请联系：**tianwenkang123@163.com**。
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Dataset on HuggingFace](https://img.shields.io/badge/🤗-Dataset-yellow.svg)](https://huggingface.co/datasets/Telody1220/VFG-7)
@@ -201,8 +201,6 @@ model.train(data="VFG-7/data.yaml", epochs=50, imgsz=1280, batch=8)
 ---
 
 ## 致谢
-
-本数据集由 **VFG-7 Dataset** 整理，用于推动交通工程领域的智能化发展。
 
 - 车辆检测框架：[Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 - AI 辅助标注：用于提升细粒度车辆标注效率与一致性

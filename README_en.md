@@ -2,13 +2,13 @@
 
 # VFG-7: Vehicle Fine-Grained 7-Class Detection Dataset
 
-### VFG-7 Dataset
+### Traffic Volume Survey Project in Dongguan, China
 
 <p align="center">
   <img src="assets/overview_grid.jpg" alt="VFG-7 Dataset Overview" width="100%">
 </p>
 
-A fine-grained vehicle detection dataset with **7 classes**,  **VFG-7 Dataset** in a . The dataset is derived from a traffic volume survey project in Dongguan, China. The open-source version contains **3,600 selected images** from a larger pool of **50,000+ original traffic images** (about **7%**), with about 50,000 bounding boxes and 10,784 AI-generated structured descriptions.
+A fine-grained vehicle detection dataset with **7 classes** for traffic engineering scenarios. The dataset is derived from a traffic volume survey project in Dongguan, China. The open-source version contains **3,600 selected images** from a larger pool of **50,000+ original traffic images** (about **7%**), with about 50,000 bounding boxes and 10,784 AI-generated structured descriptions.
 
 The original data covers daytime/nighttime scenes and multiple viewpoints, including roadside cameras, roadside mobile-phone recordings, and UAV aerial views. For access to the complete dataset, please contact: **tianwenkang123@163.com**.
 
@@ -203,7 +203,6 @@ This dataset is released under [CC BY-NC 4.0](https://creativecommons.org/licens
 
 ## Acknowledgments
 
-- Dataset  **VFG-7 Dataset** in a 
 - Vehicle detection powered by [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 - AI-assisted annotation used to improve fine-grained labeling efficiency and consistency
 - Data derived from a traffic volume survey project in Dongguan, China
