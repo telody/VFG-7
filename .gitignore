@@ -1,0 +1,17 @@
+# Dataset files (hosted on HuggingFace, not in git)
+images/
+labels/
+vlm_annotations.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
