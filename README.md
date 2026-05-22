@@ -8,6 +8,7 @@ A fine-grained vehicle detection dataset with **7 classes**, annotated using a n
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Dataset on HuggingFace](https://img.shields.io/badge/🤗-Dataset-yellow.svg)](https://huggingface.co/datasets/Telody1220/VFG-7)
+[![ModelScope](https://img.shields.io/badge/ModelScope-Dataset-blue.svg)](https://www.modelscope.cn/datasets/Telody/VFG-7)
 
 ---
 
@@ -83,12 +84,16 @@ VFG-7/
 ### Download
 
 ```bash
-# Option 1: HuggingFace (recommended)
+# Option 1: HuggingFace (International)
 pip install huggingface_hub
 huggingface-cli download Telody1220/VFG-7 --repo-type dataset --local-dir ./VFG-7
 
-# Option 2: Direct download
-# See Releases page
+# Option 2: ModelScope (国内推荐)
+pip install modelscope
+modelscope download --dataset Telody/VFG-7 --local_dir ./VFG-7
+
+# Option 3: Git clone
+git clone https://huggingface.co/datasets/Telody1220/VFG-7
 ```
 
 ### Train
