@@ -1,6 +1,6 @@
 # VFG-7: Vehicle Fine-Grained 7-Class Detection Dataset
 # License: CC BY-NC 4.0
-# https://github.com/YOUR_NAME/VFG-7
+# https://huggingface.co/datasets/Telody1220/VFG-7
 
 path: .
 train: images/train

@@ -12,7 +12,7 @@ import sys
 def main():
     parser = argparse.ArgumentParser(description="Download VFG-7 dataset from HuggingFace")
     parser.add_argument("--output", default=".", help="Output directory (default: current dir)")
-    parser.add_argument("--repo", default="YOUR_NAME/VFG-7", help="HuggingFace repo ID")
+    parser.add_argument("--repo", default="Telody1220/VFG-7", help="HuggingFace repo ID")
     args = parser.parse_args()
 
     print("=" * 50)
